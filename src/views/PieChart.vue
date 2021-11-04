@@ -15,8 +15,10 @@
         info:[]
       }
     },
+
     mounted(){
-      this.initPieChart()
+      this.initPieChart();
+      axios.get('/api/pieinfo').then(res =>{this.info=res.data.data;this.initPieChart()});
     },
     methods:{
       initPieChart(){
@@ -59,7 +61,6 @@
 
         chart.render();
 
-        axios.get('./mock/pieinfo.json').then(res =>{JSON.parse(this.info=res.data.data)});
 
 
       }

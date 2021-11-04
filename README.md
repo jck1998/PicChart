@@ -1,4 +1,4 @@
-# 基于 Vue＋ElementUI＋AntV G2 结合 mock 数据测试实现数据可视化   piecharts
+# 基于 Vue＋ElementUI＋AntV G2 结合 mock 数据测试实现数据可视化 piecharts
 
 ## Project setup
 ```

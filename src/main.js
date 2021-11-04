@@ -12,6 +12,8 @@ Vue.prototype.$http = axios;
 Vue.use(router);
 Vue.use(Element);
 
+require('../public/mock/index.js')
+
 
 new Vue({
   el:'#app',
