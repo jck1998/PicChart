@@ -18,12 +18,5 @@ npm run build
 ### Run your tests
 ```
 npm run test
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 项目目前准备增加一些需求，完善登录功能和主界面列表
